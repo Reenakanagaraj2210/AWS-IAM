@@ -1,5 +1,7 @@
 AWS IAM
+
 AIM:
+
    Explore pre-created IAM users and groups.
    Inspect IAM policies as applied to the pre-created groups.
    Follow a real-world scenario,adding users to groups with specific capabilities enabled.
@@ -29,6 +31,7 @@ Steps 4:Add the user to a group with specific permissions such as S3FullAccess o
 Steps 5:Use the IAM sign-in URL to log in as the created user and test access permissions for AWS services.
 
 COMMANDS
+
 Include the commands used in the Experiment.
 
 1. List IAM Users:
@@ -74,12 +77,24 @@ aws iam create-login-profile \
 
 aws iam list-account-aliases
 
-OUTPUT
+OUTPUT:
+
 REG NUMBER:212224040272
+
 NAME:Reena K
+
 Include your Screenshots Here.
 
+<img width="1389" height="613" alt="image" src="https://github.com/user-attachments/assets/48a3c049-3af2-48e9-b548-c85db1d70d87" />
+
+<img width="1298" height="655" alt="image" src="https://github.com/user-attachments/assets/1c1e4511-d85f-467c-a2fb-412240f0f70c" />
+
+<img width="1918" height="1193" alt="Screenshot 2026-05-03 133427" src="https://github.com/user-attachments/assets/b9e2aaa6-c3e6-4961-84d7-195d3add3292" />
 
 
+RESULT:
 
-RESULT
+This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage
+secure access to cloud resources. Assigning users to groups with predefined policies simplified
+permission management and ensured role-based access control across AWS services.
+
